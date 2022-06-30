@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html , body {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 66px;
+}
+.left img {
+    width :90px;
+}
+nav {
+    font-size: 15px;
+    padding-top: 14px;
+    position: sticky ;
+    overflow: hidden;
+    
+
+}
+.container
+{
+   padding: 0 10vm;
+   
+}
+nav ul li{
+    list-style: none;
+    padding: 0 14px;
+}
+.section1
+{
+    background-color: white;
+}
+.search{
+    width: 34vw;
+      padding: 7px 17px;
+      border: 0.5px solid grey;
+      background: #f7f8fd;
+      border-radius: 5px;
+  }
+  .homeImg{
+    width: 98vw;
+    padding-left:25px;
+    margin: auto;
+    width:1300px;
+    margin-top: 100px;
+
+  }
+  .homeImg1{
+    width: 98vw;
+    padding-left:25px;
+    margin: auto;
+    width:1300px;
+    margin-top: 0px;
+  }
+  .itemImg
+  {
+    width:14vw;
+    margin : 6px 16px;
+  }
+.footer
+{
+  background-color:whitesmoke;
+  padding: 100px 40px;
+
+}
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col
+{
+  width:20%;
+  padding:0 20px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  
+}
+.containers
+{
+  max-width: 1500px;
+  background-color:whitesmoke;
+  margin-left:115px ;
+  
+}
+.wright
+{
+  margin-left: 350px;
+  margin-bottom: 0px;
+}
+.footer-col .mobile{
+  height: 10px;
+}
+
+@media (max-width: 450px) { 
+  .search {
+      width: 72vw; 
+  }
+  }
+  
+  @media (max-width: 1000px) { 
+  
+    nav ul li {
+      list-style: none;
+      padding: 0 2px;
+      font-size: 5px;
+  }
+}
+    
+  
+    .containerHeader {
+      padding: 0 1vw;
+  }
+  
+  header{ 
+    height:100px;
+  }  
+  
+  /*  nav{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right{ 
+      flex-direction: column;
+    }
+  
+    .rightBox{
+      display: flex;
+      margin: 12px;
+    }
+  }*/
+  footer ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+  }
+  footer ul li{
+    list-style: none;
+  }

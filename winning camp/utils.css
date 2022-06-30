@@ -1,0 +1,31 @@
+.flex{
+    display:flex;
+  }
+  .items-center
+  {
+   align-items:center;
+  }
+ .justify-center
+  {
+  justify-content: center;
+  }
+  .space-between /* space between navigation bar and search bar*/
+  {
+      justify-content: space-between;
+  }
+  .mx-2
+  {
+   margin-left: 12px;
+   margin-right: 12px;
+  }
+  .upper-case
+  {
+      text-transform: uppercase;
+  }
+  .semibold{
+    font-weight: bolder;
+  }
+  .flex-wrap
+  {
+    flex-wrap: wrap;
+  }
